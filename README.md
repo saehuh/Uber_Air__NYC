@@ -22,5 +22,8 @@ https://data.cityofnewyork.us/Transportation/2019-For-Hire-Vehicles-Trip-Data/u6
 2019 High Volume FHV Trip Records:
 https://data.cityofnewyork.us/Transportation/2019-High-Volume-FHV-Trip-Records/4p5c-cbgn
 
+NYC Taxi Zones
+https://data.cityofnewyork.us/Transportation/NYC-Taxi-Zones/d3c5-ddgc
+
 Transportation Sites:
 https://data.cityofnewyork.us/Transportation/Transportation-Sites/hg3c-2jsy
