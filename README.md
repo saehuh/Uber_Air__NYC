@@ -1,8 +1,6 @@
 # Uber_Air__NYC
 Business Case Study of Air Taxi and Sky Ports for New York City
 
-### Author: Saewook Huh
-
 ![Uber Air Image](/img/190216_190529_entry_jpg.jpg)
 
 ## Background
@@ -22,58 +20,77 @@ A typical Uber Air market will usually have the following characteristics.
 
 #### Size (land area)
 
-A large human settlement spread over a large area, e.g Dallas/Fort Worth (DFW) Metroplex encompasses 4,848 square miles, and Los Angeles (LA) metro land area is spread over 8,928 square miles. New York City has an estimated 2019 population of 8,336,817 distributed over about 302.6 square miles (784 km2), which is not spread wide enough. However, the New York metropolitan area is the largest metropolitan area in the world by urban landmass, at 3,450.2 sq mi (8,936 km2).
+A large human settlement spread over a large area, e.g Dallas/Fort Worth (DFW) Metroplex encompasses 4,848 square miles, and Los Angeles (LA) metro land area is spread over 8,928 square miles. 
+
+New York City has an estimated 2019 population of 8,336,817 distributed over about 302.6 square miles (784 km2), which is not spread wide enough. However, the New York metropolitan area is the largest metropolitan area in the world by urban landmass, at 3,450.2 sq mi (8,936 km2).
 
 #### Population and population density
 
-The population is greater than 1 million and the population density is greater than 1,000 people per square mile. The New York metropolitan area is the most populous in the United States, as defined by both the Metropolitan Statistical Area (20.3 million residents in 2017) and the Combined Statistical Area (23.7 million residents in 2016).
+The population is greater than 1 million and the population density is greater than 1,000 people per square mile. 
+
+The New York metropolitan area is the most populous in the United States, as defined by both the Metropolitan Statistical Area (20.3 million residents in 2017) and the Combined Statistical Area (23.7 million residents in 2016).
 
 #### Existing transportation network
 
-An expansive ground transportation network that includes public transportation systems. A strong existing transportation network is essential, as riders will be provided the option of an existing form of ground transportation to and from skyports as part of the Uber Air journey. New York City's transportation system includes subway, bus, ferry, Taxi as well as FHV(For-hire Vehicles). 
+An expansive ground transportation network that includes public transportation systems. A strong existing transportation network is essential, as riders will be provided the option of an existing form of ground transportation to and from skyports as part of the Uber Air journey. 
+
+New York City's transportation system includes subway, bus, ferry, Taxi as well as FHV(For-hire Vehicles). 
 
 #### At least one large airport
 
-Airports typically aggregate transportation demand. Airports that are separated from the city center by a trip of an hour or more due to distance, traffic, or other bottlenecks, provide a compelling use case for a foundational route. New York has three robust airports in JFK, Newark and LaGuardia.
+Airports typically aggregate transportation demand. Airports that are separated from the city center by a trip of an hour or more due to distance, traffic, or other bottlenecks, provide a compelling use case for a foundational route. 
+
+New York has three robust airports in JFK, Newark and LaGuardia.
 
 #### Traffic congestion
 
-Increasing traffic congestion that results in high travel times and congestion costs. For example, in 2019, each vehicle commuter, in DFW Metroplex, spent 45 hours in traffic at an annual congestion cost of $1,160. Similarly, annual congestion cost in LA area is $2,440. The ideal city is polycentric, with multiple dense nodes of development separated by frequent congestion. According to INRIX 2019 Traffic Scorecard Report, New York City is 4th most congested city in the US and 14th in the world with 140 hours spent in congestions.
+Increasing traffic congestion that results in high travel times and congestion costs. For example, in 2019, each vehicle commuter, in DFW Metroplex, spent 45 hours in traffic at an annual congestion cost of $1,160. Similarly, annual congestion cost in LA area is $2,440. The ideal city is polycentric, with multiple dense nodes of development separated by frequent congestion. 
+
+According to INRIX 2019 Traffic Scorecard Report, New York City is 4th most congested city in the US and 14th in the world with 140 hours spent in congestions.
 
 #### Stable environmental conditions
 
 Adverse weather conditions can influence many components of Uber Air, including operational reliability, service supply, and rider comfort.
 
 
-## Objectives
-
-1. Inspect the optimal time of operation
-
-2. Inspect the optimal location for skyports
-
-3. Inspect the optial pricing range and options
-
-
-## Findings
-
-
-
 ## Data
+
+Yellow Taxi Trip Records from NYC Taxi & Lomousine Commision contains fields capturing:
+
+- Vendor ID
+- pick-up and drop-off dates/times
+- pick-up and drop-off locations
+- trip_distance
+- passenger count
+- itemized fares
+- rate types
+- payment types
+
+Yellow Taxi Trip Records dataset has the most variety of fields as well as the size large enough to investigate the usage of cars as public transportation in NYC. Though the size of dataset for High Volume For-Hire Vehicles(Uber, Lyft, Via & etc) has surpassed Yellow Taxi in recent years, FHVHV datasets unfortunately lack some important fields such as fare amount to gain more interesting insight.
+
+Here, we are looking at Yellow Taxi data from 2019 to evaluate 'normal' level of activties considering the unusual disruption in social activities in 2020 due to pandemic.
 
 2019 Yellow Taxi Trip Data:
 https://data.cityofnewyork.us/Transportation/2019-Yellow-Taxi-Trip-Data/2upf-qytp
 
-2019 Green Taxi Trip Data:
-https://data.cityofnewyork.us/Transportation/2019-Green-Taxi-Trip-Data/q5mz-t52e
-
-2019 For Hire Vehicles Trip Data:
-https://data.cityofnewyork.us/Transportation/2019-For-Hire-Vehicles-Trip-Data/u6nh-b56h
-
-2019 High Volume FHV Trip Records:
-https://data.cityofnewyork.us/Transportation/2019-High-Volume-FHV-Trip-Records/4p5c-cbgn
-
 NYC Taxi Zones
 https://data.cityofnewyork.us/Transportation/NYC-Taxi-Zones/d3c5-ddgc
 
-Transportation Sites:
-https://data.cityofnewyork.us/Transportation/Transportation-Sites/hg3c-2jsy
+
+## Questions
+
+For the initial launch of Uber Air's service in NYC:
+
+1. Where should it run?
+
+2. When should it run?
+
+3. How can we validate the values proposed?
+
+## Location of Service
+
+
+
+
+
+
