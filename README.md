@@ -3,8 +3,7 @@ Business Case Study of Air Taxi and Sky Ports for New York City
 
 ### Author: Saewook Huh
 
-![Uber Air Image]
-(/img/190216_190529_entry_jpg.jpg)
+![Uber Air Image](/img/190216_190529_entry_jpg.jpg)
 
 ## Background
 
