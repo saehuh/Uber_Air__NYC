@@ -3,6 +3,9 @@ Business Case Study of Air Taxi and Sky Ports for New York City
 
 ### Author: Saewook Huh
 
+![Uber Air Image]
+(/img/190216_190529_entry_jpg.jpg)
+
 ## Background
 
 In 2019, Uber announced that Uber Air flying taxis will take off in Dallas, Los Angeles and Melbourne in 2023. Uber Air is a shared air transporation service between suburbs and cities to start, and ultimately within cities. The company believes Urban Air Mobility(UAM) presents an opportunity to decongest road traffic, improve mobility, give back time to those trapped in daily traffic, and unlock the potential of cities worldwide.
