@@ -89,7 +89,7 @@ For the initial launch of Uber Air's service in NYC:
 
 3. How can we validate the values proposed?
 
-## Location of Service: Where should Uber Air run?
+# Location of Service: Where should Uber Air run?
 
 Initially, looked up the count of pick up/drop off records by boroughs:
 
@@ -132,6 +132,31 @@ JFK is on average 14.1 miles away from Manhattan and LaGuardia is 15.1 miles awa
 ## Answer: Upper East Side Manhattan to JFK Airport
 
 Because Uber Air requires Skyport for Landing Zone, I wouldn't make sense for it to launch the service with the need to build multiple skyports within Manhattan. Instead, providing a service from JFK airport to an area with highest demand for transportation in the city would be a sound choice.
+
+# Time of Service: When should Uber Air run?
+![time_operation](/img/short_long.png)
+
+I recommend operating between 12PM to 10PM with expanded capacity for 2PM to 8PM.
+
+
+# Passengers
+![passengers](/img/passengers.png)
+
+Most of the Yellow Taxi trips regardless of its distance transport a single passenger. Uber Air is a shared ride system for 4 passenger VTOLs, which means 1 VTOL can replace 4 Yellow Taxi trips to JFK. This will be useful in serving Uber's goal to resolve traffic congestion.
+
+# Rates
+![rates](/img/rate.png)
+
+1. Standard rate
+2. JFK
+3. Newark
+4. Nassau or Westchester
+5. Negotiated fare
+6. Group ride
+
+Here is a problem. There is a flat rate offer for JFK at $52 to $58 depending on traffic surcharge. You can see in long distance trips that the flat rates for Airports become more common. 
+
+This is an issue we have to investigate because Uber Air won’t be able to undercut the price.
 
 
 
