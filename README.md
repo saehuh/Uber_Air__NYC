@@ -89,7 +89,7 @@ For the initial launch of Uber Air's service in NYC:
 
 3. How can we validate the values proposed?
 
-## Location of Service
+## Location of Service: Where should Uber Air run?
 
 Initially, looked up the count of pick up/drop off records by boroughs:
 
@@ -118,6 +118,20 @@ From the figures above, we can see that despite the top 5 pickup/dropoff zones, 
 
 The zone in the lower-right corner that shows quite high number of demans is Queens, where JFK Airport is located. JFK is ranked at 7th pick-up location and 38th drop-off location among top 50 zones. La Guardia Air port ranks at the 14th in pick-up locations and 35th in drop-off locations. Rest of top 50 zones were in Manhattan.
 
+### Trip Distance: How far are the trips?
+![trip_distance_distribution](/img/distance.png)
+
+JFK is on average 14.1 miles away from Manhattan and LaGuardia is 15.1 miles away. More than 96% of trips are short distance trips with trip distance less than 15 miles.
+
+### Pick UP/Drop off for Short Distance Trips
+![short_PUDO](/img/short_d_PUDO.png)
+
+### Pick Up/Drop off for Long Distance Trips
+![long_PUDO](/img/long_d_PUDO.png)
+
+## Answer: Upper East Side Manhattan to JFK Airport
+
+Because Uber Air requires Skyport for Landing Zone, I wouldn't make sense for it to launch the service with the need to build multiple skyports within Manhattan. Instead, providing a service from JFK airport to an area with highest demand for transportation in the city would be a sound choice.
 
 
 
