@@ -55,6 +55,8 @@ Adverse weather conditions can influence many components of Uber Air, including 
 
 ## Data
 
+![NYC Taxi Zone](/img/nyc_boroughs.png)
+
 Yellow Taxi Trip Records from NYC Taxi & Lomousine Commision contains fields capturing:
 
 - Vendor ID
@@ -89,7 +91,32 @@ For the initial launch of Uber Air's service in NYC:
 
 ## Location of Service
 
+Initially, looked up the count of pick up/drop off records by boroughs:
 
+![Boroughs_Activities](/img/borough_pudo.png)
+
+Manhattan takes up more 90% of the pick up/drop off locations.
+
+To get a closer look at areas with highest demand, I looked at top 5 pick up/drop off zones by their count.
+
+- Top 5 pickup zones : 
+    * Upper East Side South 
+    * Midtown Center 
+    * Upper East Side North 
+    * Midtown East 
+    * Penn Station/Madison Square West 
+
+- Top 5 drop-off zones : 
+    * Upper East Side North 
+    * Midtown Center 
+    * Upper East Side South 
+    * Murray Hill and Times Square/Theatre District 
+    
+![zones_Activities](/img/pu_do_nyc.png)
+
+From the figures above, we can see that despite the top 5 pickup/dropoff zones, many other zones in Manhattan are also popular.
+
+The zone in the lower-right corner that shows quite high number of demans is Queens, where JFK Airport is located. JFK is ranked at 7th pick-up location and 38th drop-off location among top 50 zones. La Guardia Air port ranks at the 14th in pick-up locations and 35th in drop-off locations. Rest of top 50 zones were in Manhattan.
 
 
 
