@@ -158,5 +158,76 @@ Here is a problem. There is a flat rate offer for JFK at $52 to $58 depending on
 
 This is an issue we have to investigate because Uber Air won’t be able to undercut the price.
 
+# How can we validate the values proposed by Uber Air?
+## Time: Trip Duration
+![time](/img/trip_length.png)
+
+Uber Air can get to JFK in 7 min 12 sec at 150mph (if 74mph, 14min 36sec) and cost you $90, however the customer would have to pay $25 more than average trip to JFK by Yellow Taxi.
+
+How do you tell if this $25 is worth it?
+
+## Varience: Standard Deviation of Trip Speed to JFK
+![varience](/img/std_speed.png)
+One of the reasons for spending extra $25 is to avoid the standard deviations attached to Taxi ride. As you can see in the figure above, the speed of Yellow Taxi's Trip to JFK can vary from 10 mph to 50+ mph due to traffic, road construction, accidents and etc that we cannot account for.
+
+We are not exactly sure about Uber Air’s standard deviations in speed yet but we can assume that there won’t be much trouble with traffic at the initial introduction of the service.
+
+## Calculating the value in dollars
+
+By taking Uber Air, customer won't have to spend extra 37 minutes in a Yellow Taxi, which would cost 1.38 dollar/min on average for Yellow Taxi trips to JFK. Therefore, the customer saves approximately $51 dollars that could have been wasted in a Yellow Taxi. In conclusion, it could be viewed that the customer actually saved about $26 for the 37 minutes that was saved by taking Uber Air.
+
+# Deeper Exploration
+![correlations](/img/corr.png)
+
+We can see strong correlation between fare amount and trip distance and duration, where longer the distance and duration is higher the fare amount is. The interesting part is that while duration and speed shows strong negative correlationship, the speed and total amount of fare does not show the same relationship. In theory, in faster speed, the cost should be lower since we are looking at a dataset that has farely similar distance from 14 to 18 miles. This is due to Yellow Taxi's inability to be faster than the threshhold of 55 mph.
+
+# Uber's Game
+![dollar_per_min](/img/dpm_uberair.png)
+This is where Uber air comes in.
+
+The graph you see is $ per mile vs speed. 
+Taxi’s $ per mile is in blue. Yellow Taxi can get efficient up to around distance of 40 mph between $2.50 to $5.00/min but it doesn’t get much faster afterwards.
+
+As you can see, Uber Air enters the zone in which no Yellow Taxi(or any cars) can cover.
+
+Where Yellow taxi cannot reduce its dollar/mile in faster speed because of
+Legal Speed Limit
+Extra fees such as Tolls
+Flat Rate(If there are no traffic, it may be cheaper to go on a standard rate)
+Limitation of Vehicles
+
+Also, notice at much slower speed, dollar per mile for Taxi tends to be even more expensive. It reaches $5/mile efficiency when the speed is 10 mph.
+
+Uber Air is introducing much faster public transportation at a price point that’s quite often way more at much slower speed at $5 per mile between the speed of 74 to 150 mph, 
+
+
+![speed_per_fare](/img/speed_fare.png)
+
+Here’s Uber Air’s Game. In terms of speed, VTOLs are in a different class from Yellow Taxi or any cars as you can tell from the  graph. There are other affordable ways to get to JFK like driving, subway, biking or even walking. But none of them are faster than Uber Air’s VTOL.
+
+Considering its speed, is Uber Air really that much more expensive?
+
+
+![dollar_per_speed](/img/dollar per speed.png)
+
+From the graph above, you can see that as trip distance increases, the dollar per speed increases for Yellow Taxi as well. Yet, Uber Air can still undercut the dollar per speed value of Taxi. Besides, beyond 20 mile distance, the competition becomes scarce. For that range between 20 miles to a couple of thousand miles, it looks like VTOLs will have absolute advantage over any other transportation means.
+
+The tri-state area or New York metropolitan area encompasses 3,450.2 sq miles and is the most populous metropolitan area in the US with 20.3 million residents. After the initial launch of Upper East Side to JFK route, I’d recommend connecting the suburbs.
+
+## Future Research Questions:
+
+- What is the optimal scale of operation for its initial launch to justify the cost?
+- At what point will Uber Air become profitable?
+- If Uber Air can reduce the number of long distance trips either from or to Manhattan, what impact will it have in terms of relieving inner city traffic congestion?
+- If carsi were able to get to their destination in 5% less time(potentially thanks to reduced traffic from Uber Air), how much cheaper would it be for the passengers?
+
+
+
+
+
+
+
+
+
 
 
